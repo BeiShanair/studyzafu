@@ -1,0 +1,12 @@
+from turtle import *
+color("black", "yellow")
+pensize(3)
+setheading(60)
+begin_fill()
+forward(100)
+right(120)
+forward(100)
+right(120)
+forward(100)
+end_fill()
+mainloop()
