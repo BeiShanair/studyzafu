@@ -6,6 +6,6 @@ for num in range(2, 101):
     else:
         if count % 5 == 0:
             print()
-        print(num, end="  ")
+        print("{:<5}".format(num), end="")
         count += 1
 print("\n共有", count, "个素数")

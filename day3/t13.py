@@ -1,5 +1,5 @@
 num = int(input("请输入一个正整数："))
-# 判断素数
+
 if num < 2:
     print("输入有误")
 else:
